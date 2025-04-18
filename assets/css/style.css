@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.flagWrap {
+  width: 600px;
+  height: 400px;
+  background: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  border-radius: 100px;
+  box-shadow: 5px 5px 0px 2px #ddd;
+  box-shadow: 5px 10px 0px 2px #ddd;
+}
